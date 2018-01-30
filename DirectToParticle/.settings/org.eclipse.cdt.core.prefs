@@ -1,0 +1,24 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/APPDIR/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/APPDIR/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/APPDIR/value=c\:/Projects/iMeter/Demo
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/FIRMWARE/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/FIRMWARE/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/FIRMWARE/value=c\:\\Projects\\src\\firmware
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/MAKEOPTS/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/MAKEOPTS/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/MAKEOPTS/value=MODULAR\=n DEBUG_BUILD\=y USE_SWD_JTAG\=y program-dfu
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/PATH/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/PATH/value=C\:/Program Files/Java/jre1.8.0_144/bin/server;C\:/Program Files/Java/jre1.8.0_144/bin;C\:/Program Files/Java/jre1.8.0_144/lib/amd64;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Program Files\\Git\\cmd;C\:\\Program Files (x86)\\GNU Tools ARM Embedded\\4.9 2015q3\\bin;C\:\\Users\\IMCSoft\\AppData\\Local\\Microsoft\\WindowsApps;C\:\\Users\\IMCSoft\\AppData\\Local\\particle\\bin;C\:\\Users\\IMCSoft\\Desktop\\Eclipse\\eclipse;c\:\\MinGW\\bin;c\:\\MinGW\\msys\\1.0\\bin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/PLATFORM/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/PLATFORM/operation=append
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/PLATFORM/value=photon
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/PWD/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/PWD/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/PWD/value=C\:\\Projects\\iMeter\\Demo
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/TARGETBIN/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/TARGETBIN/operation=append
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/TARGETBIN/value=target/${ProjName}.bin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/appendContributed=true
