@@ -8,6 +8,7 @@ SYSTEM_MODE(MANUAL);
 #include "softap_http.h"
 
 //this is a page struct.
+//second comment after rename.
 struct Page
 {
     const char* url;
