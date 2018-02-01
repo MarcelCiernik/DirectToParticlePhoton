@@ -7,6 +7,7 @@ SYSTEM_MODE(MANUAL);
 #include "Particle.h"
 #include "softap_http.h"
 
+//this is a page struct.
 struct Page
 {
     const char* url;
