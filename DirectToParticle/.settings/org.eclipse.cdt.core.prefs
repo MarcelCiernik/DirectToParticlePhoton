@@ -1,7 +1,7 @@
 eclipse.preferences.version=1
 environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/APPDIR/delimiter=;
 environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/APPDIR/operation=replace
-environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/APPDIR/value=c\:/Projects/iMeter/Demo
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/APPDIR/value=c\:/Users/IMCSoft/git/DirectToParticle/
 environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/FIRMWARE/delimiter=;
 environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/FIRMWARE/operation=replace
 environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.137166560/FIRMWARE/value=c\:\\Projects\\src\\firmware
