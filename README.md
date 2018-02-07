@@ -3,4 +3,10 @@ DirectToParticlePhoton is an open source software for Particle. It allows to con
 
 Its major functionality is to enable/disable all available pins (digital/analog) and allow to send/receive messages over RS232 protocol. 
 
-<img src="https://raw.githubusercontent.com/MarcelCiernik/DirectToParticlePhoton/master/rsz_screenshot_20180205-142924.png" width="48">
+<img src="https://raw.githubusercontent.com/MarcelCiernik/DirectToParticlePhoton/master/rsz_screenshot_20180205-142924.png" width="300">
+
+## Functional Pins:
+
+* Digital pins: D0..D7 Enable/Disable (green flashing indicates pin enabled)
+* Analog pins Pin A0..A5 set a value from 0..255 
+* RS232 – Send Receive message. 
