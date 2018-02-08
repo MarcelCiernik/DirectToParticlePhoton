@@ -24,3 +24,8 @@ There are essentially two ways how to load this application into Particle Photon
 * Load the assembly (.elf) file into the Particle photon
 * Compile the software and use IDE, such as Eclipse to compile and load the software.
 
+
+## Flash assembly (.elf) file directly into Photon
+
+## Compile and Build source with Eclipse IDE
+
