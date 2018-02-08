@@ -11,6 +11,7 @@ Its major functionality is to enable/disable all available pins (digital/analog)
 * Analog pins Pin A0..A5 set a value from 0..255 
 * RS232 – Send Receive message. 
 * RS203 baud Rate setting.
+* Device information retrieval.
 
 <img src="https://raw.githubusercontent.com/MarcelCiernik/DirectToParticlePhoton/master/Screenshot_20180207-132939.png" width="300">
 
