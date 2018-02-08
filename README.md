@@ -17,4 +17,10 @@ Its major functionality is to enable/disable all available pins (digital/analog)
 
 
 
-## Steps to Compile this applications
+## Flas Photon with the application
+
+There are essentially two ways how to load this application into Particle Photon.
+
+*Load the assembly (.elf) file into the Particle photon
+*Compile the software and use IDE, such as Eclipse to compile and load the software.
+
