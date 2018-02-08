@@ -21,6 +21,6 @@ Its major functionality is to enable/disable all available pins (digital/analog)
 
 There are essentially two ways how to load this application into Particle Photon.
 
-*Load the assembly (.elf) file into the Particle photon
-*Compile the software and use IDE, such as Eclipse to compile and load the software.
+* Load the assembly (.elf) file into the Particle photon
+* Compile the software and use IDE, such as Eclipse to compile and load the software.
 
