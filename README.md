@@ -39,11 +39,11 @@ The request/response list:
 | Pin Name      | Request Enable  | Request Disable  | Response  JSON   | Error  JSON                     |
 | ------------- | ----------------|------------------|------------------|---------------------------------|
 | Pin D0        | baseUrl/D0=true | baseUrl/D0=false | {"D0":"'value'"} | {"Error":"'Error Description'"} |
-| Pin D1        | baseUrl/D1=true | baseUrl/D1=false | {"D0":"'value'"} | {"Error":"'Error Description'"} |
-| Pin D2        | baseUrl/D2=true | baseUrl/D2=false | {"D0":"'value'"} | {"Error":"'Error Description'"} |
-| Pin D3        | baseUrl/D3=true | baseUrl/D3=false | {"D0":"'value'"} | {"Error":"'Error Description'"} |
-| Pin D4        | baseUrl/D4=true | baseUrl/D4=false | {"D0":"'value'"} | {"Error":"'Error Description'"} |
-| Pin D5        | baseUrl/D5=true | baseUrl/D5=false | {"D0":"'value'"} | {"Error":"'Error Description'"} |
-| Pin D6        | baseUrl/D6=true | baseUrl/D6=false | {"D0":"'value'"} | {"Error":"'Error Description'"} |
-| Pin D7        | baseUrl/D7=true | baseUrl/D7=false | {"D0":"'value'"} | {"Error":"'Error Description'"} |
+| Pin D1        | baseUrl/D1=true | baseUrl/D1=false | {"D1":"'value'"} | {"Error":"'Error Description'"} |
+| Pin D2        | baseUrl/D2=true | baseUrl/D2=false | {"D2":"'value'"} | {"Error":"'Error Description'"} |
+| Pin D3        | baseUrl/D3=true | baseUrl/D3=false | {"D3":"'value'"} | {"Error":"'Error Description'"} |
+| Pin D4        | baseUrl/D4=true | baseUrl/D4=false | {"D4":"'value'"} | {"Error":"'Error Description'"} |
+| Pin D5        | baseUrl/D5=true | baseUrl/D5=false | {"D5":"'value'"} | {"Error":"'Error Description'"} |
+| Pin D6        | baseUrl/D6=true | baseUrl/D6=false | {"D6":"'value'"} | {"Error":"'Error Description'"} |
+| Pin D7        | baseUrl/D7=true | baseUrl/D7=false | {"D7":"'value'"} | {"Error":"'Error Description'"} |
 
