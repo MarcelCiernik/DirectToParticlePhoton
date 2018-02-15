@@ -64,6 +64,11 @@ The request/response list with baseUrl http:192.168.0.1 :
 
 #### Description
 
+Tx – represents the Rs232 transmitter. If request invoked, the Photon will send the text represented as “Text to send”. Then it will return either ‘Response JSON’ or ‘Error JSON’.
+Rx – Represents the RS232 receiver. It consists of two stages. In first stage ‘Request Enable’ enables the receiver to allocate a buffer of the ‘Number’ size. The second stage is receiving the data which have been collected to the allocated buffer.
+If the allocation ‘Number’ is greater than 1000, an Error is return: {“Error”:”Buffer too big!”}
+
+
 |  Name         | Request Enable            | Request to Receive | Response  JSON           | Error  JSON                     |
 | ------------- | --------------------------|--------------------|--------------------------|---------------------------------|
 |  Tx           | baseUrl/Tx="Text to send" | -                  | {"Tx":"ok"}              | {"Error":"'Error Description'"} |
