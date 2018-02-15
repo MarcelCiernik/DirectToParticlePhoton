@@ -29,3 +29,16 @@ There are essentially two ways how to load this application into Particle Photon
 
 ## Compile and Build source with Eclipse IDE
 
+## Compile and Build source with Eclipse IDE
+
+## DirectToParticlePhoton http services published
+
+DirectToParticle application is http based, and all the individual functionality are triggered by a request.
+The request/response list:
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
