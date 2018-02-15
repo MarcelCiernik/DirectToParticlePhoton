@@ -36,9 +36,14 @@ There are essentially two ways how to load this application into Particle Photon
 DirectToParticle application is http based, and all the individual functionality are triggered by a request.
 The request/response list:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
+| Pin Name      | Request Enable  | Request Disable  | Error  JSON                    |
+| ------------- | ----------------|------------------|--------------------------------|
+| Pin D0        | baseUrl/D0=true | baseUrl/D0=false | {"Error":"{Error Description}" |
+| Pin D1        | baseUrl/D1=true | baseUrl/D1=false | {"Error":"{Error Description}" |
+| Pin D2        | baseUrl/D2=true | baseUrl/D2=false | {"Error":"{Error Description}" |
+| Pin D3        | baseUrl/D3=true | baseUrl/D3=false | {"Error":"{Error Description}" |
+| Pin D4        | baseUrl/D4=true | baseUrl/D4=false | {"Error":"{Error Description}" |
+| Pin D5        | baseUrl/D5=true | baseUrl/D5=false | {"Error":"{Error Description}" |
+| Pin D6        | baseUrl/D6=true | baseUrl/D6=false | {"Error":"{Error Description}" |
+| Pin D7        | baseUrl/D7=true | baseUrl/D7=false | {"Error":"{Error Description}" |
 
