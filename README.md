@@ -34,7 +34,9 @@ There are essentially two ways how to load this application into Particle Photon
 ## DirectToParticlePhoton http services published
 
 DirectToParticle application is http based, and all the individual functionality are triggered by a request.
-The request/response list:
+The request/response list with baseUrl http:192.168.0.1 :
+
+Digital Pins:
 
 | Pin Name      | Request Enable  | Request Disable  | Response  JSON   | Error  JSON                     |
 | ------------- | ----------------|------------------|------------------|---------------------------------|
@@ -46,4 +48,17 @@ The request/response list:
 | Pin D5        | baseUrl/D5=true | baseUrl/D5=false | {"D5":"'value'"} | {"Error":"'Error Description'"} |
 | Pin D6        | baseUrl/D6=true | baseUrl/D6=false | {"D6":"'value'"} | {"Error":"'Error Description'"} |
 | Pin D7        | baseUrl/D7=true | baseUrl/D7=false | {"D7":"'value'"} | {"Error":"'Error Description'"} |
+
+Analog Pins:
+
+| Pin Name      | Request Enable     | Request Disable  | Response  JSON   | Error  JSON                     |
+| ------------- | -------------------|------------------|------------------|---------------------------------|
+| Pin A0        | baseUrl/A0={1..255} | baseUrl/A0=0    | {"A0":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A1        | baseUrl/A1={1..255} | baseUrl/A1=0    | {"A1":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A2        | baseUrl/A2={1..255} | baseUrl/A2=0    | {"A2":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A3        | baseUrl/A3={1..255} | baseUrl/A3=0    | {"A3":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A4        | baseUrl/A4={1..255} | baseUrl/A4=0    | {"A4":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A5        | baseUrl/A5={1..255} | baseUrl/A5=0    | {"A5":"'value'"} | {"Error":"'Error Description'"} |
+
+
 
