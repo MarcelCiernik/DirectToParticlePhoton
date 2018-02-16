@@ -1,7 +1,7 @@
 # DirectToParticlePhoton
 
 ## Introdaction
-DirectToParticlePhoton is an open source software for [Particle](https://docs.particle.io/faq/particle-tools/eclipse-debug/photon/). It allows to connect Particle Photon wirelessly __without necessity to use internet__ and __without need to have Particle Account__ (to be able to build and flas the device), from Android device, IOs Device or Microsoft mobile device. 
+DirectToParticlePhoton is an open source software for [Particle](https://docs.particle.io/faq/particle-tools/eclipse-debug/photon/). The DirectToParticlePhoton application allows to connect Particle Photon wirelessly __without necessity to use internet__ and __without need to have Particle Account__ (to be able to build and flas the device), from Android device, IOs Device or Microsoft mobile device. 
 
 Its major functionality is to enable/disable all available pins (digital/analog) and allow to send/receive messages over RS232 protocol. 
 
