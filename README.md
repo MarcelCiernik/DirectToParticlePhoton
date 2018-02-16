@@ -27,13 +27,13 @@ There are essentially two ways how to load this application into Particle Photon
 
 ## Flash assembly (.elf) file directly into Photon
 
-## Compile and Build source with Eclipse IDE
+### Compile and Build source with Eclipse IDE
 
-
+Download the sources and use [these](https://docs.particle.io/faq/particle-tools/eclipse-debug/core/) instruction to build the sources with eclipse. 
 
 ### Compile and flash application via Particle Clound
 
-In order to build the source in cloud, it is necessary to replace MANUAL flag with AUTOMATIC or SEMI_AUTOMATIC in the SYSTEM_MODE(MANUAL) macro, present in the Top of the Main.cpp file. Then follow the [link]( https://docs.particle.io/support/troubleshooting/mode-switching/photon/).
+In order to build the source in cloud, it is necessary to replace MANUAL flag with AUTOMATIC or SEMI_AUTOMATIC in the SYSTEM_MODE(MANUAL) macro, present in the Top of the Main.cpp file. Then follow the [link](https://docs.particle.io/guide/getting-started/modes/photon/).
 
 ## DirectToParticlePhoton http services published
 
