@@ -29,6 +29,8 @@ There are essentially two ways how to load this application into Particle Photon
 
 ## Flash assembly (.elf) file directly into Photon
 
+Put the device in DFU mode (blinking yellow) and execute: particle flash --usb target/blinkled.bin
+
 ### Compile and Build source with Eclipse IDE
 
 Download the sources and use [these](https://docs.particle.io/faq/particle-tools/eclipse-debug/core/) instruction to build the sources with eclipse. 
