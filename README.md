@@ -63,17 +63,46 @@ The Particle Device contains 7 analog pins, which can be in either write or read
 
 When request sent to write a value, the value will be constantly written to keep the pin output corresponding to the requested value.
 
-| Pin Name      | Get Status  | Request Enable      | Request Disable  | Response  JSON   | Error  JSON                     |
-| ------------- | ------------| --------------------|------------------|------------------|---------------------------------|
-| Pin A0        | baseUrl/A0  | baseUrl/A0={1..4095} | baseUrl/A0=0    | {"A0":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A1        | baseUrl/A1  | baseUrl/A1={1..4095} | baseUrl/A1=0    | {"A1":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A2        | baseUrl/A2  | baseUrl/A2={1..4095} | baseUrl/A2=0    | {"A2":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A3        | baseUrl/A3  | baseUrl/A3={1..4095} | baseUrl/A3=0    | {"A3":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A4        | baseUrl/A4  | baseUrl/A4={1..4095} | baseUrl/A4=0    | {"A4":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A5        | baseUrl/A5  | baseUrl/A5={1..4095} | baseUrl/A5=0    | {"A5":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A6        | baseUrl/A5  | baseUrl/A5={1..4095} | baseUrl/A5=0    | {"A5":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A7        | baseUrl/A5  | baseUrl/A5={1..4095} | baseUrl/A5=0    | {"A5":"'value'"} | {"Error":"'Error Description'"} |
-| DAC           | baseUrl/DAC | baseUrl/DAC={1..4095} | baseUrl/DAC=0  | {"DAC":"'value'"} | {"Error":"'Error Description'"} |
+To read a value from the analog pin, it is also necessary to set up the frequency the value will be red from the analog pin.
+
+#### Write Mode
+| Pin Name | Get Status  | Request Enable        | Request Disable |
+| -------- | ------------| ----------------------|-----------------|
+| Pin A0   | baseUrl/A0  | baseUrl/WA0={1..4095} | baseUrl/WA0=0   |
+| Pin A1   | baseUrl/A1  | baseUrl/WA1={1..4095} | baseUrl/WA1=0   | 
+| Pin A2   | baseUrl/A2  | baseUrl/WA2={1..4095} | baseUrl/WA2=0   | 
+| Pin A3   | baseUrl/A3  | baseUrl/WA3={1..4095} | baseUrl/WA3=0   |
+| Pin A4   | baseUrl/A4  | baseUrl/WA4={1..4095} | baseUrl/WA4=0   |
+| Pin A5   | baseUrl/A5  | baseUrl/WA5={1..4095} | baseUrl/WA5=0   | 
+| Pin A6   | baseUrl/A5  | baseUrl/WA5={1..4095} | baseUrl/WA5=0   | 
+| Pin A7   | baseUrl/A5  | baseUrl/WA5={1..4095} | baseUrl/WA5=0   | 
+| DAC      | baseUrl/DAC | baseUrl/WDAC={1..4095} | baseUrl/WDAC=0 |
+
+#### Read Mode
+| Pin Name | Get Status  | Request Enable        |
+| -------- | ------------| ----------------------|
+| Pin A0   | baseUrl/A0  | baseUrl/WA0={1..4095} |
+| Pin A1   | baseUrl/A1  | baseUrl/WA1={1..4095} |
+| Pin A2   | baseUrl/A2  | baseUrl/WA2={1..4095} |
+| Pin A3   | baseUrl/A3  | baseUrl/WA3={1..4095} |
+| Pin A4   | baseUrl/A4  | baseUrl/WA4={1..4095} |
+| Pin A5   | baseUrl/A5  | baseUrl/WA5={1..4095} |
+| Pin A6   | baseUrl/A5  | baseUrl/WA5={1..4095} |
+| Pin A7   | baseUrl/A5  | baseUrl/WA5={1..4095} |
+| DAC      | baseUrl/DAC | baseUrl/WDAC={1..4095}|
+
+#### Read/Write response
+| Response  JSON                   | Error  JSON                     |
+|----------------------------------|---------------------------------|
+| {"A0":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
+| {"A1":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
+| {"A2":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
+| {"A3":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
+| {"A4":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
+| {"A5":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
+| {"A5":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
+| {"A5":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
+| {"DAC":"'value' "Status":"{W/R}"}| {"Error":"'Error Description'"} |
 
 ### RS 232
 
