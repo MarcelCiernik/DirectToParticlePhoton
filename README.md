@@ -80,19 +80,25 @@ To read a value from the analog pin, it is also necessary to set up the frequenc
 
 #### Read Mode 
 
-| Pin Name | Get Status  | Request Enable|
-| -------- | ------------| --------------|
-| Pin A0   | baseUrl/A0  | baseUrl/RA0   |
-| Pin A1   | baseUrl/A1  | baseUrl/RA1   |
-| Pin A2   | baseUrl/A2  | baseUrl/RA2   |
-| Pin A3   | baseUrl/A3  | baseUrl/RA3   |
-| Pin A4   | baseUrl/A4  | baseUrl/RA4   |
-| Pin A5   | baseUrl/A5  | baseUrl/RA5   |
-| Pin A6   | baseUrl/A5  | baseUrl/RA5   |
-| Pin A7   | baseUrl/A5  | baseUrl/RA5   |
-| DAC      | baseUrl/DAC | baseUrl/RDAC  |
+The Pin Read function consists only of a single request, which can be invoked anytime, returning the value read from the physical Pin. In order to make a continuous reading, the mobile application invokes requests continuously. 
+
+| Pin Name | Get Status  |
+| -------- | ------------|
+| Pin A0   | baseUrl/A0  |
+| Pin A1   | baseUrl/A1  |
+| Pin A2   | baseUrl/A2  |
+| Pin A3   | baseUrl/A3  |
+| Pin A4   | baseUrl/A4  |
+| Pin A5   | baseUrl/A5  |
+| Pin A6   | baseUrl/A5  |
+| Pin A7   | baseUrl/A5  |
+| DAC      | baseUrl/DAC |
+
 
 #### Read/Write response
+
+The responses are common both for Read and Write function, where R- represents read, W – represents write, and NONE indicates no write is going on. 
+
 | Response  JSON                        | Error  JSON                     |
 |---------------------------------------|---------------------------------|
 | {"A0":"'value' "Status":"{W/R/NONE}"} | {"Error":"'Error Description'"} |
