@@ -62,7 +62,7 @@ When the photon device is running and its pins (digital or analog) are configure
 
 ### Analog Pins:
 
-The Particle Device contains 7 analog pins, which can be in either write or read mode. The value ranges from 0 to 4095. Each individual pin can be configured to write or read values. For more information see [datasheet] (https://docs.particle.io/datasheets/photon-(wifi)/photon-datasheet/).
+The Particle Device contains 7 analog pins, which can be in either write or read mode. The value ranges from 0 to 4095. Each individual pin can be configured to write or read values. For more information see [datasheet](https://docs.particle.io/datasheets/photon-(wifi)/photon-datasheet/).
 
 When request sent to write a value, the value will be constantly written to keep the pin output corresponding to the requested value.
 
