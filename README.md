@@ -41,13 +41,23 @@ In order to build the source in cloud, it is necessary to replace MANUAL flag wi
 
 ## DirectToParticlePhoton http services published for Analog and Digital pins
 
+### Connect
+
+|Request   |Response     |
+| -------- | ------------|
+| Pin A0   |  {"D0..7":"'value'","A0..A7":"{Read/Write response*}","DAC":"'value'"}
+
+*Read/Write response defined in 'Read/Write response' Section below.
+
+
+### Pins:
+
 DirectToParticle application is http based, and all the individual functionality are triggered by a request.
 The request/response list with baseUrl http:192.168.0.1 :
 
 When the photon device is running and its pins (digital or analog) are configured to specific values, it keeps the setting as long as it is power on. This means, that if a particular set up has been made with a mobile device, and the application on the phone is turned off, the mobile application will read the current device setup on the next Connect function and adjust itself accordingly.
 
 
-### Digital Pins:
 
 | Pin Name      | Get Status      | Request Enable  | Request Disable  | Response  JSON   | Error  JSON                     |
 | ------------- | ----------------| ----------------|------------------|------------------|---------------------------------|
