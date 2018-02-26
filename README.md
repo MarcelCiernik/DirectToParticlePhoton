@@ -39,10 +39,13 @@ Download the sources and use [these](https://docs.particle.io/faq/particle-tools
 
 In order to build the source in cloud, it is necessary to replace MANUAL flag with AUTOMATIC or SEMI_AUTOMATIC in the SYSTEM_MODE(MANUAL) macro, present in the Top of the Main.cpp file. Then follow the [link](https://docs.particle.io/guide/getting-started/modes/photon/).
 
-## DirectToParticlePhoton http services published
+## DirectToParticlePhoton http services published for Analog and Digital pins
 
 DirectToParticle application is http based, and all the individual functionality are triggered by a request.
 The request/response list with baseUrl http:192.168.0.1 :
+
+When the photon device is running and its pins (digital or analog) are configured to specific values, it keeps the setting as long as it is power on. This means, that if a particular set up has been made with a mobile device, and the application on the phone is turned off, the mobile application will read the current device setup on the next Connect function and adjust itself accordingly.
+
 
 ### Digital Pins:
 
