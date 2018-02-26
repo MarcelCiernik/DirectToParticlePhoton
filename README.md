@@ -45,7 +45,7 @@ In order to build the source in cloud, it is necessary to replace MANUAL flag wi
 
 |Request   |Response     |
 | -------- | ------------|
-| Pin A0   |  {"D0..7":"'value'","A0..A7":"{Read/Write response*}","DAC":"'value'"}
+| "Connect" |  {"Status":"Connected/{Error}","D0..7":"'value'","A0..A7":"{Read/Write response*}","DAC":"'value'","Error":"{Description}"}
 
 *Read/Write response defined in 'Read/Write response' Section below.
 
