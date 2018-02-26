@@ -78,7 +78,8 @@ To read a value from the analog pin, it is also necessary to set up the frequenc
 | Pin A7   | baseUrl/A5  | baseUrl/WA5={1..4095} | baseUrl/WA5=0   | 
 | DAC      | baseUrl/DAC | baseUrl/WDAC={1..4095} | baseUrl/WDAC=0 |
 
-#### Read Mode
+#### Read Mode 
+
 | Pin Name | Get Status  | Request Enable|
 | -------- | ------------| --------------|
 | Pin A0   | baseUrl/A0  | baseUrl/RA0   |
@@ -92,17 +93,17 @@ To read a value from the analog pin, it is also necessary to set up the frequenc
 | DAC      | baseUrl/DAC | baseUrl/RDAC  |
 
 #### Read/Write response
-| Response  JSON                   | Error  JSON                     |
-|----------------------------------|---------------------------------|
-| {"A0":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
-| {"A1":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
-| {"A2":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
-| {"A3":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
-| {"A4":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
-| {"A5":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
-| {"A5":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
-| {"A5":"'value' "Status":"{W/R}"} | {"Error":"'Error Description'"} |
-| {"DAC":"'value' "Status":"{W/R}"}| {"Error":"'Error Description'"} |
+| Response  JSON                        | Error  JSON                     |
+|---------------------------------------|---------------------------------|
+| {"A0":"'value' "Status":"{W/R/NONE}"} | {"Error":"'Error Description'"} |
+| {"A1":"'value' "Status":"{W/R/NONE}"} | {"Error":"'Error Description'"} |
+| {"A2":"'value' "Status":"{W/R/NONE}"} | {"Error":"'Error Description'"} |
+| {"A3":"'value' "Status":"{W/R/NONE}"} | {"Error":"'Error Description'"} |
+| {"A4":"'value' "Status":"{W/R/NONE}"} | {"Error":"'Error Description'"} |
+| {"A5":"'value' "Status":"{W/R/NONE}"} | {"Error":"'Error Description'"} |
+| {"A5":"'value' "Status":"{W/R/NONE}"} | {"Error":"'Error Description'"} |
+| {"A5":"'value' "Status":"{W/R/NONE}"} | {"Error":"'Error Description'"} |
+| {"DAC":"'value' "Status":"{W/R/NONE}"}| {"Error":"'Error Description'"} |
 
 ### RS 232
 
