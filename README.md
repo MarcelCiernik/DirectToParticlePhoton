@@ -59,14 +59,19 @@ The request/response list with baseUrl http:192.168.0.1 :
 
 ### Analog Pins:
 
+
+
 | Pin Name      | Get Status          | Request Enable      | Request Disable  | Response  JSON   | Error  JSON                     |
 | ------------- | --------------------| --------------------|------------------|------------------|---------------------------------|
-| Pin A0        | baseUrl/A0          | baseUrl/A0={1..255} | baseUrl/A0=0     | {"A0":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A1        | baseUrl/A1          | baseUrl/A1={1..255} | baseUrl/A1=0     | {"A1":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A2        | baseUrl/A2          | baseUrl/A2={1..255} | baseUrl/A2=0     | {"A2":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A3        | baseUrl/A3          | baseUrl/A3={1..255} | baseUrl/A3=0     | {"A3":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A4        | baseUrl/A4          | baseUrl/A4={1..255} | baseUrl/A4=0     | {"A4":"'value'"} | {"Error":"'Error Description'"} |
-| Pin A5        | baseUrl/A5          | baseUrl/A5={1..255} | baseUrl/A5=0     | {"A5":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A0        | baseUrl/A0          | baseUrl/A0={1..4095} | baseUrl/A0=0     | {"A0":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A1        | baseUrl/A1          | baseUrl/A1={1..4095} | baseUrl/A1=0     | {"A1":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A2        | baseUrl/A2          | baseUrl/A2={1..4095} | baseUrl/A2=0     | {"A2":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A3        | baseUrl/A3          | baseUrl/A3={1..4095} | baseUrl/A3=0     | {"A3":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A4        | baseUrl/A4          | baseUrl/A4={1..4095} | baseUrl/A4=0     | {"A4":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A5        | baseUrl/A5          | baseUrl/A5={1..4095} | baseUrl/A5=0     | {"A5":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A6        | baseUrl/A5          | baseUrl/A5={1..4095} | baseUrl/A5=0     | {"A5":"'value'"} | {"Error":"'Error Description'"} |
+| Pin A7        | baseUrl/A5          | baseUrl/A5={1..4095} | baseUrl/A5=0     | {"A5":"'value'"} | {"Error":"'Error Description'"} |
+| DAC           | baseUrl/DAC         | baseUrl/DAC={1..4095} | baseUrl/DAC=0  | {"DAC":"'value'"} | {"Error":"'Error Description'"} |
 
 ### RS 232
 
