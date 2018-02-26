@@ -79,17 +79,17 @@ To read a value from the analog pin, it is also necessary to set up the frequenc
 | DAC      | baseUrl/DAC | baseUrl/WDAC={1..4095} | baseUrl/WDAC=0 |
 
 #### Read Mode
-| Pin Name | Get Status  | Request Enable        |
-| -------- | ------------| ----------------------|
-| Pin A0   | baseUrl/A0  | baseUrl/WA0={1..4095} |
-| Pin A1   | baseUrl/A1  | baseUrl/WA1={1..4095} |
-| Pin A2   | baseUrl/A2  | baseUrl/WA2={1..4095} |
-| Pin A3   | baseUrl/A3  | baseUrl/WA3={1..4095} |
-| Pin A4   | baseUrl/A4  | baseUrl/WA4={1..4095} |
-| Pin A5   | baseUrl/A5  | baseUrl/WA5={1..4095} |
-| Pin A6   | baseUrl/A5  | baseUrl/WA5={1..4095} |
-| Pin A7   | baseUrl/A5  | baseUrl/WA5={1..4095} |
-| DAC      | baseUrl/DAC | baseUrl/WDAC={1..4095}|
+| Pin Name | Get Status  | Request Enable|
+| -------- | ------------| --------------|
+| Pin A0   | baseUrl/A0  | baseUrl/RA0   |
+| Pin A1   | baseUrl/A1  | baseUrl/RA1   |
+| Pin A2   | baseUrl/A2  | baseUrl/RA2   |
+| Pin A3   | baseUrl/A3  | baseUrl/RA3   |
+| Pin A4   | baseUrl/A4  | baseUrl/RA4   |
+| Pin A5   | baseUrl/A5  | baseUrl/RA5   |
+| Pin A6   | baseUrl/A5  | baseUrl/RA5   |
+| Pin A7   | baseUrl/A5  | baseUrl/RA5   |
+| DAC      | baseUrl/DAC | baseUrl/RDAC  |
 
 #### Read/Write response
 | Response  JSON                   | Error  JSON                     |
